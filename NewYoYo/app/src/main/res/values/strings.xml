@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">YoYo</string>
+    <string name="facebook_app_id">2123740064508217</string>
+    <string name="fb_login_protocol_scheme">fb2123740064508217</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_network">เกิดข้อผิดพลาดในการเชื่อมต่อ\nอินเทอร์เน็ต</string>
+    <string name="title_activity_lllllllll">LLLLLLLLLActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="type_product">
+        <item>เสื้อ</item>
+        <item>กางเกง</item>
+        <item>รองเท้า</item>
+        <item>เครื่องประดับ</item>
+        <item>กีฬา</item>
+        <item>เครื่องใช้ไฟฟ้า</item>
+        <item>คอมพิวเตอร์</item>
+        <item>สมาร์ทโฟนและแท็บเลต</item>
+        <item>รถยนต์</item>
+        <item>มอเตอร์ไซค์</item>
+    </string-array>
+</resources>

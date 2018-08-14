@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1030269107683",
+    "firebase_url": "https://newyoyo-caad7.firebaseio.com",
+    "project_id": "newyoyo-caad7",
+    "storage_bucket": "newyoyo-caad7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030269107683:android:7dd8121fcede6258",
+        "android_client_info": {
+          "package_name": "com.example.peak.newyoyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030269107683-of7t4q9in5d2879lae9a7i9ntdqavrom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.peak.newyoyo",
+            "certificate_hash": "dba61bfc791711629a966736e2689ff5ba4f79df"
+          }
+        },
+        {
+          "client_id": "1030269107683-jk0rt3kkafrqqra4ppqt5bdh0k1vr38e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpI09ya5_vs6ztXrCrD1HxEh5vnJ4I-Cs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030269107683-jk0rt3kkafrqqra4ppqt5bdh0k1vr38e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

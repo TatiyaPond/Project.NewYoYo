@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#E53935</color>
+    <color name="colorAccent">#0586dd</color>
+    <color name="colorTextWhite">#FFF</color>
+    <color name="colorButtonFacebook">#2742ae</color>
+    <color name="colorButtonsign">#F44336</color>
+    <color name="colorText">#F44336</color>
+    <color name="colorTextVerified">#28c222</color>
+    <color name="colorTextNotVerified">#e10000</color>
+    <color name="colorButtonAddProduct">#327ac7</color>
+    <color name="refresh_progress_1">#4bf44336</color>
+    <color name="refresh_progress_2">#aaf44336</color>
+    <color name="refresh_progress_3">@color/colorPrimary</color>
+    <color name="InactiveColor">#bf888888</color>
+    <color name="colorSale">#d9152ff6</color>
+    <color name="colorSold">#ff0f0f</color>
+</resources>

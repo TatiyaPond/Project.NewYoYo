@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_talk_layout"
+    android:padding="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item_img_profile_talk"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_person_default" />
+
+    <TextView
+        android:id="@+id/item_text_message_talk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/item_img_profile_talk"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/background_massage"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/item_text_time_talk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_img_profile_talk"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/item_text_message_talk"
+        android:text="Time"
+        android:textSize="12dp" />
+
+</RelativeLayout>

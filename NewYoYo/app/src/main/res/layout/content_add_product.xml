@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/img_add_picture"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_add_a_photo_black_24dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_img_addproduct"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_name_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-2dp"
+            android:background="@drawable/edit_add_product"
+            android:hint="ชื่อสินค้า"
+            android:imeActionLabel="ถัดไป"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textSize="@dimen/TextAddProduct" />
+
+        <EditText
+            android:id="@+id/edit_type_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_add_product"
+            android:focusableInTouchMode="false"
+            android:hint="ประเภทสินค้า"
+            android:imeActionLabel="ถัดไป"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textSize="@dimen/TextAddProduct" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-2dp"
+                    android:background="@drawable/text_add_product"
+                    android:text="ราคา"
+                    android:textSize="@dimen/TextAddProduct" />
+
+                <EditText
+                    android:id="@+id/edit_price_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_add_product"
+                    android:imeActionLabel="ถัดไป"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textSize="@dimen/TextAddProduct" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_add_product"
+                    android:text="จำนวน"
+                    android:textSize="@dimen/TextAddProduct" />
+
+                <EditText
+                    android:id="@+id/edit_qrt_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_add_product"
+                    android:imeActionLabel="ถัดไป"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textSize="@dimen/TextAddProduct" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="-1dp"
+                    android:background="@drawable/text_add_product"
+                    android:text="จังหวัด"
+                    android:textSize="@dimen/TextAddProduct" />
+
+                <EditText
+                    android:id="@+id/edit_province_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_add_product"
+                    android:imeActionLabel="ถัดไป"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textSize="@dimen/TextAddProduct" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_descrip_product"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/edit_add_product"
+            android:gravity="start"
+            android:hint="รายละเอียด"
+            android:inputType="textMultiLine"
+            android:focusableInTouchMode="true"
+            android:scrollbars="vertical"
+            android:textSize="@dimen/TextAddProduct"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edit_phone_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/TextAddProduct"
+            android:focusableInTouchMode="true"
+            android:inputType="number"
+            android:background="@drawable/edit_add_product"
+            android:hint="เบอร์โทรศัพท์"/>
+
+        <Button
+            android:id="@+id/button_add_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="Addproduct"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_add_product"
+            android:text="ลงขายสินค้า"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="13dp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
